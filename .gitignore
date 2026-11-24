@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Переменные окружения и секреты
+.env
+.env.*
+!.env.example
+
+# Базы данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Тестирование
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Линтеры
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Операционная система
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
